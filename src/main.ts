@@ -58,9 +58,12 @@ function starTree(height: number): void {
         const stars = "*".repeat(2 * i - 1);
         console.log(spaces + stars);
     }
+    let trunk:string = "";
 
     for (let i = 0; i < height; i++) {
         const trunkSpaces = " ".repeat(height - 1);
-        console.log(trunkSpaces + "*");
+        trunk += trunkSpaces+"*\n"
+        // console.log(trunkSpaces + "*");
     }
+    console.log(trunk)
 }
