@@ -2,7 +2,7 @@ import './style.css'
 
 let age: number = 10;
 console.log("age = " + age)
-for (let i = 1; i < age; i++) {
+for (let i: number = 1; i < age; i++) {
     console.log(i);
 }
 
@@ -42,4 +42,25 @@ console.log(isAdmin?"isAdmin wird als truthy ausgewertet.":"isAdmin wird als fal
 
 if(!isAdmin){
     console.log("isAdmin ist false.")
+}
+
+console.log("\nBonus:")
+console.log("****************************")
+starTree(5)
+function starTree(height: number): void {
+    if (height <= 0) {
+        console.log("Die Höhe des Baumes muss größer als 0 sein.");
+        return;
+    }
+
+    for (let i = 1; i <= height; i++) {
+        const spaces = " ".repeat(height - i);
+        const stars = "*".repeat(2 * i - 1);
+        console.log(spaces + stars);
+    }
+
+    for (let i = 0; i < height; i++) {
+        const trunkSpaces = " ".repeat(height - 1);
+        console.log(trunkSpaces + "*");
+    }
 }
