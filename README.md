@@ -1,6 +1,6 @@
 # ffm-java-23-1-typescript
 
-Coding: TypeScript-Basics
+## Coding: TypeScript-Basics
 
 Erstellt ein neues Vite Projekt mit dem Template vanilla und TypeScript in IntelliJ.
 
@@ -37,7 +37,7 @@ Erstellt ein neues Vite Projekt mit dem Template vanilla und TypeScript in Intel
     Gebt 'isAdmin ist false.' aus, wenn 'isAdmin' den Wert 'false' hat.
 
 
-Bonus
+## Bonus
 
 Großartige Arbeit! Wenn Ihr möchtet, bearbeitet zusätzlich diese freiwillige Bonusaufgabe.
 
@@ -45,13 +45,13 @@ Großartige Arbeit! Wenn Ihr möchtet, bearbeitet zusätzlich diese freiwillige 
     Schreibt einen code, der eine Zahl n akzeptiert und einen Weihnachtsbaum mit den folgenden Mustern ausgibt n = 5:
 
 
-    *
-   ***
-  *****
- *******
-*********
-    *
-    *
-    *
-    *
-    * 
+               *
+              ***
+             *****
+            *******
+           *********
+               *
+               *
+               *
+               *
+               * 
